@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateModelosUsuariosTable extends Migration
+class CreateImagenURLsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,19 +13,14 @@ class CreateModelosUsuariosTable extends Migration
      */
     public function up()
     {
-        Schema::create('modelos_usuarios', function (Blueprint $table) {
+        Schema::create('imagen_u_r_ls', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('idUsuario')->unsigned();
-            $table->string("nombre");
+            $table->string('url');
+            $table->string('imagenRuta');
             $table->timestamps();
         });
-    
-
-        Schema::table('modelos_usuarios', function (Blueprint $table) {
-                $table->foreign('idUsuario')->references('id')->on('');
-
-            });
     }
+
     /**
      * Reverse the migrations.
      *
@@ -33,6 +28,6 @@ class CreateModelosUsuariosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('modelos_usuarios');
+        Schema::dropIfExists('imagen_u_r_ls');
     }
 }

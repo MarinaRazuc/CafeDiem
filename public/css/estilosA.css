@@ -101,9 +101,8 @@ body{
 #miCanvas{
 	border: 5px solid #fff;
 	border-radius: 15px;
-	background-color: silver;
-	background-image: url("../imagenes/corcho.jpg");
-	background-size: cover;
+	
+	
 }
 
 
@@ -194,7 +193,9 @@ div{
 }
 #cambiarCSS{
 	background-image: url("../imagenes/botones/cambiar.png");
-
+}
+#compartir{
+	background-image: url("../imagenes/botones/compartir.png");
 }
 .botones {
 	background-color: transparent;

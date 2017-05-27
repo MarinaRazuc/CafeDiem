@@ -1,10 +1,10 @@
-$(function() {
-  $.ajaxSetup({
-    headers: {
-      'X-CSRF-Token': $('meta[name="_token"]').attr('content')
-    }
-  });
-});
+// $(function() {
+//   $.ajaxSetup({
+//     headers: {
+//       'X-CSRF-Token': $('meta[name="_token"]').attr('content')
+//     }
+//   });
+// });
 
 function guardar(){
 console.log("soy un simple mortal... naaa soy usr");

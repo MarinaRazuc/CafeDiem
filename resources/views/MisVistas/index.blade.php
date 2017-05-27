@@ -9,18 +9,17 @@
 	<script src="{{ asset('/js/facebox-bootstrap.js')}}"></script>
 
 	<script type="text/javascript"  src="{{ asset('/js/configuracionPanel.js')}}"></script>
-	
+	<meta name="_token" content="{{ csrf_token() }}">
+
 	@if(Auth::guest())
       	<script type="text/javascript"  src="{{ asset('/js/guardarLocalhost.js')}}"></script>
 	@elseif (Auth::check())
       	@if(Auth::user()->esAdmin)
 			<script type="text/javascript"  src="{{ asset('/js/guardarPredefinidosAdmin.js')}}"></script>
-			<meta name="_token" content="{{ csrf_token() }}">
 
 
       	@else
           	<script type="text/javascript"  src="{{ asset('/js/guardarUsr.js')}}"></script>
-			<meta name="_token" content="{{ csrf_token() }}">
 
  	    @endif
  	@endif
@@ -86,6 +85,14 @@
 					</div>
 					<div  class="col-xs-3  col-sm-3 col-md-3 noPaddingCostado">
 						<button id="borrar" alt="borrar" title="Borrar" class="botones radioGrande"></button>
+					</div>
+					<div  class="col-xs-3  col-sm-3 col-md-3 noPaddingCostado">
+						<button id="compartir" alt="compartir" title="Compartir" class="botones radioGrande"></button>
+					</div>
+<!-- 
+					<div class="alert alert-warning " role="alert">Tu link para compartir: </div> -->
+					<div id="enlaceCompartir" class="alert alert-info collapse col-xs-12  col-sm-12 col-md-9">
+					  <strong>Compartir</strong>  <a id="enlacePosta" href="" class="alert-link">este enlace </a>con tus amigos.
 					</div>
 					
 				</div>

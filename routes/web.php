@@ -65,6 +65,8 @@ Route::get('login/{provider}/callback', 'Auth\SocialAccountController@handleProv
 
 // Auth::routes();
 
+Route::post('/compartir', 'ImagenURLController@compartir');
+Route::get('/compartir/{url}', 'ImagenURLController@obtener');
 
 Route::get('password/reset', 'Auth\ForgotPasswordController@showLinkRequestForm');
 Route::post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail');

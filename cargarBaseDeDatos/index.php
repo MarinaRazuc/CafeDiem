@@ -15,6 +15,39 @@ $json4='[
 {"idDesayuno":1,  "idCategoria":6, "idProductos":2}
 
 
+{"idDesayuno":2,  "idCategoria":1, "idProductos":0},
+{"idDesayuno":2, "idCategoria":1,  "idProductos":1},
+{"idDesayuno":2, "idCategoria":1,  "idProductos":2},
+{"idDesayuno":2,  "idCategoria":2, "idProductos":0},
+{"idDesayuno":2,  "idCategoria":2, "idProductos":1},
+{"idDesayuno":2,  "idCategoria":2, "idProductos":4},
+{"idDesayuno":2, "idCategoria":3,  "idProductos":0},
+{"idDesayuno":2, "idCategoria":4,  "idProductos":0},
+{"idDesayuno":2,  "idCategoria":4, "idProductos":1},
+{"idDesayuno":2,  "idCategoria":5, "idProductos":2},
+{"idDesayuno":2,  "idCategoria":6, "idProductos":1},
+
+
+{"idDesayuno":3,  "idCategoria":1, "idProductos":0},
+{"idDesayuno":3, "idCategoria":1,  "idProductos":1},
+{"idDesayuno":3, "idCategoria":1,  "idProductos":2},
+{"idDesayuno":3, "idCategoria":1,  "idProductos":3},
+{"idDesayuno":3, "idCategoria":1,  "idProductos":4},
+{"idDesayuno":3,  "idCategoria":2, "idProductos":0},
+{"idDesayuno":3,  "idCategoria":2, "idProductos":2},
+{"idDesayuno":3,  "idCategoria":2, "idProductos":3},
+{"idDesayuno":3,  "idCategoria":2, "idProductos":4},
+{"idDesayuno":3, "idCategoria":3,  "idProductos":0},
+{"idDesayuno":3, "idCategoria":3,  "idProductos":1},
+{"idDesayuno":3, "idCategoria":3,  "idProductos":2},
+{"idDesayuno":3,  "idCategoria":4, "idProductos":0},
+{"idDesayuno":3,  "idCategoria":4, "idProductos":1},
+{"idDesayuno":3,  "idCategoria":4, "idProductos":2},
+{"idDesayuno":3,  "idCategoria":4, "idProductos":3},
+{"idDesayuno":3,  "idCategoria":5, "idProductos":6},
+{"idDesayuno":3,  "idCategoria":6, "idProductos":0}
+
+
 
 ]';
 
